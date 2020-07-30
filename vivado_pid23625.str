@@ -1,0 +1,307 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 23625
+
+Current time: 	11/21/19 6:39:46 PM CST
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: CentOS Linux release 7.6.1810 (Core) 
+Version: 3.10.0-957.27.2.el7.x86_64
+Architecture: amd64
+Available processors (cores): 40
+
+DISPLAY: localhost:48.0
+Screen size: 1280x720
+Screen resolution (DPI): 95
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	/softwares/Linux/xilinx/Vivado/2015.2/tps/lnx64/jre
+
+User name: 	quydao1462
+User directory: /home/ugrads/q/quydao1462
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: /home/ugrads/q/quydao1462/.Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: /home/ugrads/q/quydao1462/.Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	209 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,949 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 22 MB (+20837kb) [00:00:08]
+// [Engine Memory]: 4,947 MB (+5036042kb) [00:00:08]
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // l:JideButton (JPanel:JComponent, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// HMemoryUtils.trashcanNow. Engine heap size: 4,949 MB. GUI used memory: 20 MB. Current time: 11/21/19 6:39:49 PM CST
+setFileChooser("/home/ugrads/q/quydao1462/lab12/lab12.xpr");
+// Opening Vivado Project: /home/ugrads/q/quydao1462/lab12/lab12.xpr. Version: Vivado v2015.2 
+// cp:P (cl:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/ugrads/q/quydao1462/lab12/lab12.xpr 
+// [GUI Memory]: 28 MB (+5303kb) [00:00:18]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project /home/ugrads/q/quydao1462/lab12/lab12.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 31 MB (+990kb) [00:00:23]
+// [GUI Memory]: 43 MB (+11233kb) [00:00:25]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/softwares/Linux/xilinx/Vivado/2015.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: lab12; location: /home/ugrads/q/quydao1462/lab12; part: xc7z010clg400-1
+// 'i' command handler elapsed time: 16 seconds
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 6051.711 ; gain = 149.129 ; free physical = 55348 ; free virtual = 209933 
+// Elapsed time: 10 seconds
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// [GUI Memory]: 46 MB (+518kb) [00:00:26]
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 55 MB (+7179kb) [00:00:26]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 21 18:40:18 2019] Launched impl_1... Run output will be captured here: /home/ugrads/q/quydao1462/lab12/lab12.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 39 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a:JRadioButton (JPanel:JComponent, Q:ap)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Bitstream Generation Completed"); // Q:ap (cl:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, "Open New Target..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD
+// ae:g (cl:JFrame): Open New Hardware Target: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+// [GUI Memory]: 60 MB (+2286kb) [00:01:28]
+// cp:P (ae:g):  Open Server : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121] Check to make sure the cable targets connected to this machine are properly connected and powered up, then use the disconnect_hw_server and connect_hw_server commands to re-register the hardware targets. 
+// p:a (ae:g): Connect Server Critical Messages: addNotify
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,125 MB. GUI used memory: 31 MB. Current time: 11/21/19 6:41:10 PM CST
+dismissDialog("Open Server"); // cp:P (ae:g)
+// Elapsed time: 32 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, p:a)
+dismissDialog("Connect Server Critical Messages"); // p:a (ae:g)
+// TclEventType: HW_SERVER_UPDATE
+// cp:P (ae:g):  Open Server : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121] Check to make sure the cable targets connected to this machine are properly connected and powered up, then use the disconnect_hw_server and connect_hw_server commands to re-register the hardware targets. 
+// p:a (ae:g): Connect Server Critical Messages: addNotify
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+dismissDialog("Open Server"); // cp:P (ae:g)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, p:a)
+dismissDialog("Connect Server Critical Messages"); // p:a (ae:g)
+// TclEventType: HW_SERVER_UPDATE
+// cp:P (ae:g):  Open Server : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121] Check to make sure the cable targets connected to this machine are properly connected and powered up, then use the disconnect_hw_server and connect_hw_server commands to re-register the hardware targets. 
+// p:a (ae:g): Connect Server Critical Messages: addNotify
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Elapsed time: 40 seconds
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+dismissDialog("Open Server"); // cp:P (ae:g)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121]. Check to make sure the cable targets connected to this machine are properly connected. and powered up, then use the disconnect_hw_server and connect_hw_server commands. to re-register the hardware targets.", 0); // d:a (JViewport:JComponent, p:a)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, p:a)
+dismissDialog("Connect Server Critical Messages"); // p:a (ae:g)
+// TclEventType: HW_SERVER_UPDATE
+// cp:P (ae:g):  Open Server : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121] Check to make sure the cable targets connected to this machine are properly connected and powered up, then use the disconnect_hw_server and connect_hw_server commands to re-register the hardware targets. 
+// p:a (ae:g): Connect Server Critical Messages: addNotify
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+dismissDialog("Open Server"); // cp:P (ae:g)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, p:a)
+dismissDialog("Connect Server Critical Messages"); // p:a (ae:g)
+// 'w' command handler elapsed time: 103 seconds
+dismissDialog("Open New Hardware Target"); // ae:g (cl:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, "Open New Target..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD
+// ae:g (cl:JFrame): Open New Hardware Target: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+// TclEventType: HW_SERVER_UPDATE
+// cp:P (ae:g):  Open Server : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121] Check to make sure the cable targets connected to this machine are properly connected and powered up, then use the disconnect_hw_server and connect_hw_server commands to re-register the hardware targets. 
+// p:a (ae:g): Connect Server Critical Messages: addNotify
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+dismissDialog("Open Server"); // cp:P (ae:g)
+// Elapsed time: 22 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, "Open Messages View"); // a:JButton (JPanel:JComponent, p:a)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Connect Server Critical Messages"); // p:a (ae:g)
+// 'w' command handler elapsed time: 32 seconds
+dismissDialog("Open New Hardware Target"); // ae:g (cl:JFrame)
+// [GUI Memory]: 64 MB (+865kb) [00:04:14]
+// Elapsed time: 175 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, "Open New Target..."); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD
+// ae:g (cl:JFrame): Open New Hardware Target: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+selectComboBox(PAResourceOtoP.OpenTargetWizard_CONNECT_TO, "Remote server (target is on remote machine)", 1); // f:JComboBox (JPanel:JComponent, ae:g)
+selectComboBox(PAResourceOtoP.OpenTargetWizard_CONNECT_TO, "Local server (target is on local machine)", 0); // f:JComboBox (JPanel:JComponent, ae:g)
+// TclEventType: HW_SERVER_UPDATE
+// cp:P (ae:g):  Open Server : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121] Check to make sure the cable targets connected to this machine are properly connected and powered up, then use the disconnect_hw_server and connect_hw_server commands to re-register the hardware targets. 
+// p:a (ae:g): Connect Server Critical Messages: addNotify
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+dismissDialog("Open Server"); // cp:P (ae:g)
+// Elapsed time: 41 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, p:a)
+dismissDialog("Connect Server Critical Messages"); // p:a (ae:g)
+selectComboBox(PAResourceOtoP.OpenTargetWizard_CONNECT_TO, "Remote server (target is on remote machine)", 1); // f:JComboBox (JPanel:JComponent, ae:g)
+// HOptionPane Error: "Invalid host name. Enter a valid remote host name or select 'Local Server' before proceeding. (Invalid Host Name)"
+// Elapsed time: 167 seconds
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+selectButton("PAResourceOtoP.OpenTargetWizard_INVALID_HOST_NAME_ENTER_VALID_REMOTE_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+setText(PAResourceOtoP.OpenTargetWizard_HOST_NAME, "idontknow"); // o:ao (f:JComboBox, ae:g)
+// cp:P (ae:g):  Open Server : addNotify
+// Tcl Message: ERROR: [Common 17-39] 'connect_hw_server' failed due to earlier errors. 
+// p:a (ae:g): Connect Server Critical Messages: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+dismissDialog("Open Server"); // cp:P (ae:g)
+dismissDialog("Connect Server Critical Messages"); // p:a (ae:g)
+setText(PAResourceOtoP.OpenTargetWizard_HOST_NAME, (String) null); // o:ao (f:JComboBox, ae:g)
+selectComboBox(PAResourceOtoP.OpenTargetWizard_CONNECT_TO, "Local server (target is on local machine)", 0); // f:JComboBox (JPanel:JComponent, ae:g)
+// TclEventType: HW_SERVER_UPDATE
+// cp:P (ae:g):  Open Server : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121] Check to make sure the cable targets connected to this machine are properly connected and powered up, then use the disconnect_hw_server and connect_hw_server commands to re-register the hardware targets. 
+// p:a (ae:g): Connect Server Critical Messages: addNotify
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+dismissDialog("Open Server"); // cp:P (ae:g)
+// Elapsed time: 30 seconds
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121]. Check to make sure the cable targets connected to this machine are properly connected. and powered up, then use the disconnect_hw_server and connect_hw_server commands. to re-register the hardware targets.", 0); // d:a (JViewport:JComponent, p:a)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, p:a)
+dismissDialog("Connect Server Critical Messages"); // p:a (ae:g)
+// TclEventType: HW_SERVER_UPDATE
+// cp:P (ae:g):  Open Server : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121] Check to make sure the cable targets connected to this machine are properly connected and powered up, then use the disconnect_hw_server and connect_hw_server commands to re-register the hardware targets. 
+// p:a (ae:g): Connect Server Critical Messages: addNotify
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+dismissDialog("Open Server"); // cp:P (ae:g)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, p:a)
+dismissDialog("Connect Server Critical Messages"); // p:a (ae:g)
+// TclEventType: HW_SERVER_UPDATE
+// cp:P (ae:g):  Open Server : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121] Check to make sure the cable targets connected to this machine are properly connected and powered up, then use the disconnect_hw_server and connect_hw_server commands to re-register the hardware targets. 
+// p:a (ae:g): Connect Server Critical Messages: addNotify
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Elapsed time: 16 seconds
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+dismissDialog("Open Server"); // cp:P (ae:g)
+dismissDialog("Connect Server Critical Messages"); // p:a (ae:g)
+selectComboBox(PAResourceOtoP.OpenTargetWizard_CONNECT_TO, "Remote server (target is on remote machine)", 1); // f:JComboBox (JPanel:JComponent, ae:g)
+selectComboBox(PAResourceOtoP.OpenTargetWizard_CONNECT_TO, "Local server (target is on local machine)", 0); // f:JComboBox (JPanel:JComponent, ae:g)
+// TclEventType: HW_SERVER_UPDATE
+// cp:P (ae:g):  Open Server : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121] Check to make sure the cable targets connected to this machine are properly connected and powered up, then use the disconnect_hw_server and connect_hw_server commands to re-register the hardware targets. 
+// p:a (ae:g): Connect Server Critical Messages: addNotify
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+dismissDialog("Open Server"); // cp:P (ae:g)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, p:a)
+dismissDialog("Connect Server Critical Messages"); // p:a (ae:g)
+// TclEventType: HW_SERVER_UPDATE
+// cp:P (ae:g):  Open Server : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121] Check to make sure the cable targets connected to this machine are properly connected and powered up, then use the disconnect_hw_server and connect_hw_server commands to re-register the hardware targets. 
+// p:a (ae:g): Connect Server Critical Messages: addNotify
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Elapsed time: 31 seconds
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+dismissDialog("Open Server"); // cp:P (ae:g)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, p:a)
+dismissDialog("Connect Server Critical Messages"); // p:a (ae:g)
+// TclEventType: HW_SERVER_UPDATE
+// cp:P (ae:g):  Open Server : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: ERROR: [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121] Check to make sure the cable targets connected to this machine are properly connected and powered up, then use the disconnect_hw_server and connect_hw_server commands to re-register the hardware targets. 
+// p:a (ae:g): Connect Server Critical Messages: addNotify
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Elapsed time: 51 seconds
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+dismissDialog("Open Server"); // cp:P (ae:g)
+dismissDialog("Connect Server Critical Messages"); // p:a (ae:g)
+selectComboBox(PAResourceOtoP.OpenTargetWizard_CONNECT_TO, "Remote server (target is on remote machine)", 1); // f:JComboBox (JPanel:JComponent, ae:g)
+// HOptionPane Error: "Invalid host name. Enter a valid remote host name or select 'Local Server' before proceeding. (Invalid Host Name)"
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+selectButton("PAResourceOtoP.OpenTargetWizard_INVALID_HOST_NAME_ENTER_VALID_REMOTE_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// 'w' command handler elapsed time: 418 seconds
+dismissDialog("Open New Hardware Target"); // ae:g (cl:JFrame)
+// Elapsed time: 69 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_hw. , [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121]. Check to make sure the cable targets connected to this machine are properly connected. and powered up, then use the disconnect_hw_server and connect_hw_server commands. to re-register the hardware targets.. ]", 2, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_hw. , [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121]. Check to make sure the cable targets connected to this machine are properly connected. and powered up, then use the disconnect_hw_server and connect_hw_server commands. to re-register the hardware targets.. ]", 2, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_hw. , [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121]. Check to make sure the cable targets connected to this machine are properly connected. and powered up, then use the disconnect_hw_server and connect_hw_server commands. to re-register the hardware targets.. ]", 2, true, false, false, false, false, true); // ae:k (JViewport:JComponent, cl:JFrame) - Double Click - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_hw. , [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121]. Check to make sure the cable targets connected to this machine are properly connected. and powered up, then use the disconnect_hw_server and connect_hw_server commands. to re-register the hardware targets.. ]", 2, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_hw. , [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121]. Check to make sure the cable targets connected to this machine are properly connected. and powered up, then use the disconnect_hw_server and connect_hw_server commands. to re-register the hardware targets.. ]", 2, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_hw. , [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121]. Check to make sure the cable targets connected to this machine are properly connected. and powered up, then use the disconnect_hw_server and connect_hw_server commands. to re-register the hardware targets.. ]", 2, true, false, false, false, false, true); // ae:k (JViewport:JComponent, cl:JFrame) - Double Click - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_hw. , [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121]. Check to make sure the cable targets connected to this machine are properly connected. and powered up, then use the disconnect_hw_server and connect_hw_server commands. to re-register the hardware targets.. ]", 2, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_hw. , [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121]. Check to make sure the cable targets connected to this machine are properly connected. and powered up, then use the disconnect_hw_server and connect_hw_server commands. to re-register the hardware targets.. ]", 2, true, false, false, false, true, false); // ae:k (JViewport:JComponent, cl:JFrame) - Popup Trigger - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_hw. , [Labtoolstcl 44-26] No hardware targets exist on the server [TCP:localhost:3121]. Check to make sure the cable targets connected to this machine are properly connected. and powered up, then use the disconnect_hw_server and connect_hw_server commands. to re-register the hardware targets.. ]", 2, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node

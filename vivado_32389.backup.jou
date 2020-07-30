@@ -1,0 +1,87 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Nov 21 19:03:51 2019
+# Process ID: 15329
+# Log file: /home/ugrads/q/quydao1462/vivado.log
+# Journal file: /home/ugrads/q/quydao1462/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/ugrads/q/quydao1462/lab12/lab12.xpr
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210351A77B1FA]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210351A77B1FA]
+open_hw_target
+set_property PROGRAM.FILE {/home/ugrads/q/quydao1462/lab12/lab12.runs/impl_1/tlc_controller_ver1.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {/home/ugrads/q/quydao1462/lab12/lab12.runs/impl_1/tlc_controller_ver1.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+close_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210351A7816DA]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210351A7816DA]
+open_hw_target
+set_property PROGRAM.FILE {/home/ugrads/q/quydao1462/lab12/lab12.runs/impl_1/tlc_controller_ver1.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {/home/ugrads/q/quydao1462/lab12/lab12.runs/impl_1/tlc_controller_ver1.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+close_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210351A78137A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210351A78137A]
+open_hw_target
+set_property PROGRAM.FILE {/home/ugrads/q/quydao1462/lab12/lab12.runs/impl_1/tlc_controller_ver1.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {/home/ugrads/q/quydao1462/lab12/lab12.runs/impl_1/tlc_controller_ver1.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+close_hw_target
+close_hw_target
+close_hw_target
+close_hw_target
+close_hw_target
+close_hw_target
+close_hw_target
+disconnect_hw_server localhost:3121
+close_hw_target
+close_hw_target
+connect_hw_server
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+close_hw_target
+disconnect_hw_server localhost
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210351A78137A]
+disconnect_hw_server localhost:3121
+close_hw_target
+close_hw_target
+close_hw_target
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210351A7816DA]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210351A7816DA]
+open_hw_target
+set_property PROGRAM.FILE {/home/ugrads/q/quydao1462/lab12/lab12.runs/impl_1/tlc_controller_ver1.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {/home/ugrads/q/quydao1462/lab12/lab12.runs/impl_1/tlc_controller_ver1.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+close_hw_target
+disconnect_hw_server localhost:3121
+close_hw_target
+close_hw_target

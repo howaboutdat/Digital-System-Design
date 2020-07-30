@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Nov 21 18:41:09 2019
+# Process ID: 26327
+# Log file: /home/ugrads/q/quydao1462/webtalk.log
+# Journal file: /home/ugrads/q/quydao1462/webtalk.jou
+#-----------------------------------------------------------
+source /home/ugrads/q/quydao1462/lab12/lab12.hw/webtalk/labtool_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 3991402941 -regid "210908451_1777500872_210647362_106" -xml /home/ugrads/q/quydao1462/lab12/lab12.hw/webtalk/usage_statisti..."
+    (file "/home/ugrads/q/quydao1462/lab12/lab12.hw/webtalk/labtool_webtalk.tcl" line 27)
+INFO: [Common 17-206] Exiting Webtalk at Thu Nov 21 18:41:10 2019...

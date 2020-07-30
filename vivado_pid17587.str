@@ -1,0 +1,48 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 17587
+
+Current time: 	11/19/19 3:26:50 PM CST
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: CentOS Linux release 7.6.1810 (Core) 
+Version: 3.10.0-1062.4.3.el7.x86_64
+Architecture: amd64
+Available processors (cores): 12
+
+DISPLAY: :0
+Screen size: 2560x1440
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	/opt/coe/Xilinx/Vivado/2015.2/tps/lnx64/jre
+
+User name: 	quydao1462
+User directory: /home/ugrads/q/quydao1462
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: /home/ugrads/q/quydao1462/.Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: /home/ugrads/q/quydao1462/.Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	136 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,856 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 38 MB (+37709kb) [00:00:05]
+// [Engine Memory]: 4,856 MB (+4940753kb) [00:00:05]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,856 MB. GUI used memory: 20 MB. Current time: 11/19/19 3:26:52 PM CST
+selectList(PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, "/home/ugrads/q/quydao1462/lab12/lab12.xpr", 0); // t:v (JViewport:JComponent, cl:JFrame)
+// Opening Vivado Project: /home/ugrads/q/quydao1462/lab12/lab12.xpr. Version: Vivado v2015.2 
+// cp:P (cl:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/ugrads/q/quydao1462/lab12/lab12.xpr 
